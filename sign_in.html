@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cryptocurrency Template - Sign in</title>
+    <!--no favicon in assets provided-->
+    <!-- <link rel="icon" type="image/png" href="#" /> -->
+    <link rel="stylesheet" type="text/css" href="./assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/sign_up.css" />
+    <link rel="stylesheet" type="text/css" href="./css/sign_in.css" />
+</head>
+
+<body>
+    <main>
+        <img id="logo" src="./images/Logo.png" alt="logo" width="80px" height="80px" />
+        <div class="container">
+            <h1>Sign in</h1>
+            <form class="form-group" action="#" method="POST">
+                <label for="email" class="fill">
+                    Email
+                    <input type="email" name="email" placeholder="johndoe@gmail.com" title="Please enter an email"
+                        required />
+                </label>
+                <label for="password" class="fill">
+                    Password
+                    <input type="password" name="password" placeholder="password" title="Please enter a password"
+                        required />
+                </label>
+                <div class="info">
+                        <label for="remember" id="remember">
+                            <input type="checkbox" name="remember">
+                            Remember me
+                        </label>
+                        
+                    <span><a href="#" alt="forgot password" class="bold-link">Forgot Password?</a></span>
+
+                </div>
+
+                <button type="submit">Sign In</button>
+
+                <p id="alt">Do not have an account? <a href="#" class="bold-link">Sign up</a></p>
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+/* theme */
+:root {
+    --background : #fff;
+    --main-color: #30015B;
+    --title-font-color: #400A71;
+    --main-font-color: rgba(0, 0, 0, 0.5);
+    --primary-link: rgba(48, 1, 91, 0.5);
+    --secondary-link-color: #1F1EFB;
+    --border-color: rgba(48, 1, 91, 0.05);
+}
+
+body{
+    background-color: var(--background);
+}
+
+main, form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 120%;
+    font-weight: 800;
+    padding: 0.8em;
+    color: var(--title-font-color);
+    border-bottom: solid var(--border-color);
+    border-radius: 5px;
+}
+
+main {
+    height: 100vh;
+}
+
+form {
+    align-items: flex-start;
+}
+
+form label {
+    display: flex;
+    flex-flow: column;
+    color: var(--title-font-color);
+    font-weight: 500;
+}
+
+form input, button {
+    padding: 0.5em;
+    margin-top: 0.7em;
+    border: solid 1px var(--title-font-color);
+    background: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+   width: 92%;
+   align-self: center;
+   color: var(--background);
+   background: var(--main-color);
+   border: 1px solid var(--main-color);
+   border-radius: 5px;
+}
+
+a {
+    color: var(--secondary-link-color);
+    text-decoration: underline;
+}
+
+p {
+    align-self: center;
+}
+
+.fill {
+    width: 100%;
+    padding: 0 1rem 0 1rem;
+}
+
+.container{
+    border: solid 2px var(--border-color);
+    padding: 0;
+    margin-top: 1.5em;
+    max-width: 33%;
+}
+
+#terms {
+    align-self: flex-start;
+    margin-left: 1rem;
+    font-size: 90%;
+}
+
+#terms input {
+    margin-right: 0.1rem;
+}
+
+#alt {
+    margin-top: 1em;
+    color: var(--main-font-color);
+}
+
+.bold-link {
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+         max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+         max-width: 70%;
+    }
+}
