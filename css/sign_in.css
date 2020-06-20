@@ -1,0 +1,15 @@
+.info {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 95%;
+   color: var(--title-font-color);
+   font-weight: 500;
+   margin: 0.5em 0 0.5em 0;
+}
+
+#remember {
+    display: inline;
+    align-items: center;
+    margin-left: 0.8em;
+}
