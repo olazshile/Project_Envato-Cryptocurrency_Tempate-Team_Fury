@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 a {
@@ -34,7 +34,7 @@ h6 {
 }
 
 .section_gap {
-    padding: 60px 0;
+    padding: 70px 0;
 }
 
 
@@ -90,8 +90,8 @@ h6 {
 
 .logo_h {
     padding-left: 20px;
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: 8%;
 }
 
 .navbar-brand img {
@@ -133,7 +133,7 @@ h6 {
 }
 
 .banner_content {
-    padding-top: 15%;
+    padding-top: 10%;
     padding-left: 5%;
 }
 
@@ -198,7 +198,12 @@ h6 {
 }
 
 .service_title h1 {
+    font-size: 40px;
     margin-bottom: 1%;
+}
+
+.service_title p {
+    font-size: 20px;
 }
 
 .service-details h4 {
@@ -210,10 +215,12 @@ h6 {
 }
 
 .service-details p {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.7;
     padding-bottom: 5%;
     height: 5rem;
+    width: 80%;
+    margin: auto;
 }
 
 .dt-link {
@@ -235,6 +242,14 @@ h6 {
 .top-partners p,
 .top-partners h1 {
     color: #fff !important;
+}
+
+.top-partners p {
+    font-size: 20px;
+}
+
+.top-partners h1 {
+    font-size: 38px;
 }
 
 .jumia {
@@ -297,7 +312,9 @@ h6 {
 
 .technology h1 {
     font-weight: bold;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
+    margin-top: 0;
+    font-size: 40px;
 }
 
 .technology .container {
@@ -335,8 +352,9 @@ h6 {
 
 .testimonial h1 {
     color: #fff;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 8rem;
+    font-size: 40px;
 }
 
 .testimonial-1 {
@@ -369,8 +387,9 @@ h6 {
 
 .blog_area h1 {
     font-weight: bold;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 5rem;
+    font-size: 40px;
 }
 
 .blog_area .container {
@@ -525,10 +544,13 @@ h6 {
     .service_title h1,
     .top-partners h1,
     .exchange-info h2 {
-        font-size: 25px;
+        font-size: 30px;
     }
     .banner_content {
         padding-top: 0;
+    }
+    .hero_img {
+        padding-top: 2rem;
     }
     .exchange-info {
         padding-top: 0;
@@ -562,7 +584,10 @@ h6 {
     }
     .service-details p {
         padding: 0;
-        height: 3rem;
+        height: 4rem;
+    }
+    .service-thumb {
+        margin-top: 1rem;
     }
     .single-blog {
         padding: 0 10px;
@@ -582,6 +607,13 @@ h6 {
     }
     .social-icons {
         padding-top: 1.5rem;
+    }
+    .banner_content h2 {
+        line-height: 40px;
+    }
+    .banner_content p {
+        margin: 0;
+        padding-bottom: 2rem;
     }
 }
 
