@@ -624,4 +624,10 @@ h6 {
     .banner_content {
         margin-bottom: 2rem;
     }
+    .navbar-brand {
+        width: 60px;
+    }
+    .login {
+        margin-bottom: 20px;
+    }
 }
