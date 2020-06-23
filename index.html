@@ -27,7 +27,7 @@
         <div class="main_menu">
             <!-- === Navbar section === -->
             <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
+                <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <a class="navbar-brand logo_h" href="index.html">
                         <img src="./images/Logo.png" alt="Crypto-World">
@@ -218,19 +218,39 @@
                     <span class="exchange_img"><img src="images/exchange.png" class="img-fluid" alt="Crypto-World"></span>
                 </div>
                 <div class="col-sm-12">
-                    <form target="_blank" novalidate="true" action="#" method="get" class="form-inline">
-                        <div class="d-flex flex-row col-lg-8 col-md-7 col-sm-12">
-                            <input class="form-control" name="text" placeholder="Type amount in EDEN" required="required" type="text">
-                            <button class="click-btn btn btn-default"><span class="lnr lnr-location" aria-hidden="true"> EDEN
-                                <i class="fa fas fas fa-chevron-down"></i>
-                            </span></button>
-                            <a href="#" class="btn btn-lg primary-btn">Convert </a>
-                        </div>
-                        <div class="d-flex flex-row col-lg-4 col-md-3 col-sm-12">
-                            <input class="form-control" name="text" placeholder="Equivalent in BTC" required="required" type="text">
-                            <button class="click-btn btn btn-default"><span class="lnr lnr-location" aria-hidden="true"> BTC
-                                <i class="fa fas fas fa-chevron-down"></i>
-                            </span></button>
+                    <form target="_blank" novalidate="true" action="#" method="get">
+                        <div class="form-row mt-5 pt-5">
+                            <div class="col-lg-7 col-md-7 mb-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="" placeholder="Type in value of EDEN" required>
+                                    <div class="invalid-tooltip">
+                                        Put in conversion value.
+                                    </div>
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="">
+                                            <button class="click-btn btn btn-default"> EDEN
+                                                <i class="fa fas fas fa-chevron-down"></i> 
+                                        </button>
+                                        </span>
+                                    </div>
+                                    <button type="submit" class="btn btn-lg ml-4 primary-btn">Convert</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 mb-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="" placeholder="Get Equivalent in BTC" required>
+                                    <div class="invalid-tooltip">
+                                        Put in conversion value.
+                                    </div>
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="">
+                                            <button class="click-btn btn btn-default"> BTC
+                                                <i class="fa fas fas fa-chevron-down"></i> 
+                                        </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -424,10 +444,20 @@
                     <p class="wh-paper">Our white paper will also be included</p>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <form target="_blank" novalidate="true" class="form-inline" action="#" method="get" class="form-inline">
-                        <div class="d-flex flex-row form-line col-sm-12">
-                            <input class="form-control" name="EMAIL" placeholder="Enter your email address" required="required" type="email">
-                            <button class="click-btn btn btn-lg primary-btn"> Subscribe </button>
+                    <form target="_blank" validate="true" action="#" method="get">
+                        <div class="form-row">
+                            <div class="input-group mt-2">
+                                <input type="text" class="form-control" id="" placeholder="Enter your Email Address" required>
+                                <div class="invalid-tooltip">
+                                    Fill in your email address.
+                                </div>
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="">
+                                            <button class="click-btn btn btn-default"> Subscribe
+                                        </button>
+                                        </span>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -444,8 +474,7 @@
                         <div class="col-lg-6 col-md-6 text-center">
                             <div class="row">
                                 <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <p><a href="#">LOGO</a>
-                                        <p>
+                                    <span><a href="http://index.html"><img src="./images/Logo.png" alt="Crypto-World"> </a> </span>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3">
                                     <p><a href="#">About</a></<p>
