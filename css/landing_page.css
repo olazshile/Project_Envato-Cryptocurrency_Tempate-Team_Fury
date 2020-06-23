@@ -100,16 +100,8 @@ h6 {
     height: 100%;
 }
 
-.first_Nav {
+.icon-bar {
     width: 25px;
-}
-
-.second_Nav {
-    width: 23px;
-}
-
-.third_Nav {
-    width: 20px;
 }
 
 .header_area .navbar .nav .nav-item:last-child {
