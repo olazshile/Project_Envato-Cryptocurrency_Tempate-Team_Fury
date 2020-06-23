@@ -37,6 +37,10 @@ h6 {
     padding: 70px 0;
 }
 
+.mobile {
+    display: none;
+}
+
 
 /* ==== BUTTON === */
 
@@ -74,7 +78,7 @@ h6 {
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
-    font: 600 12px/40px "Montserrat", sans-serif;
+    font: 600 14px/40px "Montserrat", sans-serif;
     color: #808080;
     padding: 0px;
     display: inline-block;
@@ -513,7 +517,12 @@ h6 {
     .banner_content {
         padding: 0;
         text-align: center;
+        margin-top: 3rem;
         margin-bottom: 2rem;
+    }
+    .hero_banner_area {
+        margin: 0;
+        margin-top: 2rem;
     }
     .header_area .navbar .nav .nav-item {
         margin: 0;
@@ -575,11 +584,34 @@ h6 {
     .exchange-info h2 {
         font-size: 30px;
     }
+    .logo_h {
+        width: 12%;
+        height: 12%;
+    }
+    .ins .login {
+        border: 0 !important;
+    }
+    .header_area .navbar .nav .nav-item {
+        margin: 0;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
     .banner_content {
         padding-top: 0;
     }
     .hero_img {
-        padding-top: 2rem;
+        display: none;
+    }
+    .mobile {
+        width: 250px;
+        height: auto;
+        margin: auto;
+        display: block;
+        padding-bottom: 2rem;
+    }
+    .hero_banner_area {
+        margin: 0;
     }
     .exchange-info {
         padding-top: 0;
@@ -652,5 +684,14 @@ h6 {
     }
     .banner_content {
         margin-bottom: 2rem;
+    }
+    .logo_h {
+        padding: 0;
+        padding-top: 1rem;
+        min-width: 13%;
+        min-height: auto;
+    }
+    .mobile {
+        display: none;
     }
 }
